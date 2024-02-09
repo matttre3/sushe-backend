@@ -1,6 +1,5 @@
-import express from 'express'
-import cors from 'cors'
-
+const express = require('express')
+const cors = require('cors')
 
 var corsOptions = {
   origin: 'https://sushe-app.vercel.app',
