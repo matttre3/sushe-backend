@@ -4,7 +4,7 @@ import cors from 'cors'
 
 
 var corsOptions = {
-  origin: 'sushe-backend-p9to.vercel.app',
+  origin: 'https://sushe-app.vercel.app',
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
