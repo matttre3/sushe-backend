@@ -13,4 +13,13 @@ app.get('/api/item/:slug', (req, res) => {
   res.end(`Item: ${slug}`);
 });
 
+app.get('/api/ciola', (req, res) => {
+    res.json({
+        nome: 'sguaco',
+        cognome: 'sguacoso'
+    });
+});
+``
+
+
 module.exports = app;
