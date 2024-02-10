@@ -4,8 +4,12 @@ const { sql } = require("@vercel/postgres");
 const { Pool } = require('pg');
 
 const pool = new Pool({
-  connectionString: 'postgres://default:jKZEJNap15rX@ep-shy-bonus-a4wq96h7-pooler.us-east-1.aws.neon.tech/verceldb?sslmode=require' ,
-})
+  user: 'default',
+  host: 'ep-shy-bonus-a4wq96h7-pooler.us-east-1.aws.neon.tech',
+  database: 'verceldb',
+  password: 'jKZEJNap15rX',
+  port: 3001, 
+});
 
 var corsOptions = {
   origin: 'https://sushe-app.vercel.app',
